@@ -17,6 +17,5 @@ export default function Header(){
       <Link className='reserva' to='/reservas'>
         <strong>Minhas Reservas</strong>
       </Link>
-    </div>
   )
 }
