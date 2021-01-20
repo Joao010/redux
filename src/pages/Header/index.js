@@ -15,7 +15,11 @@ export default function Header(){
         className='logo'/>
       </Link>
       <Link className='reserva' to='/reservas'>
-        <strong>Minhas Reservas</strong>
+        <div>
+          <strong>Minhas Reservas</strong>
+          <span>0 reservas</span>
+        </div>
       </Link>
+    </div>
   )
 }
