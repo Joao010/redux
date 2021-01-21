@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 
 import './header.css'
 import logo from '../../img/logo.svg'
-import reserve from '../../store/modules/reserve/reducer'
 
 export default function Header(){
   const reserveSize = useSelector(state => state.reserve.length)

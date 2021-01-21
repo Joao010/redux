@@ -1,18 +1,20 @@
+import React from 'react'
+import {Provider} from 'react-redux'
+import {Router} from 'react-router-dom'
+
+import history from './services/history'
+import store from './store'
+import Routes from './routes'
+import Header from './pages/Header'
 import './App.css';
 
-import {Provider} from 'react-redux'
-
-import Routes from './routes'
-import store from './store'
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Provider store={store}>
+    <Provider store={store}>
+      <Router history={history}>
+        <Header/>
         <Routes/>
-      </Provider>
-    </div>
+      </Router>
+    </Provider>
   );
 }
-
-export default App;
