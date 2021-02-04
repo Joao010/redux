@@ -5,7 +5,7 @@
 ### * => async
 ### yield => await
 
-## Middleware: Saga (verifications)
+## Middleware: Saga
 
 ## Actions
 ### Requests: saga
